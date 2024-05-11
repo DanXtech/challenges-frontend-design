@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  lighting-color: #ccc
+}
+
+body {
+  background: url(http://users.atw.hu/nyejani/print/textures/marble.jpg);
+  padding: 1em
+}
+
+svg {
+  position: absolute;
+  top: -999em
+}
+
+filter {
+  color-interpolation-filters: sRGB
+}
+
+p {
+  position: relative;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 8rem;
+  text-align: center;
+  text-shadow: 0 0 .7px, 0 0 1.1px, 0 0 1.1px;
+  filter:url(#in-and-out)
+}
+
+p:before,
+p:after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  content: attr(data-text)
+}
+
+p:before {
+  color: #036;
+  text-shadow: -1px -1px 1px, 0 -1px 1px, 1px -1px 1px, 1px 0 1px, 1px 1px 1px, 0 1px 1px, -1px 1px 1px, -1px 0 1px
+}
+
+p:after {
+  color: rgba(40, 80, 120, .9);
+  filter:url(#lightA3)
+}
+    </style>
+</head>
+<body>
+    <svg>
+        <filter id=lightA3>
+          <feGaussianBlur in='SourceAlpha' stdDeviation='3' result='B' />
+          <feSpecularLighting in='B' specularExponent='128' result='S'>
+            <feDistantLight azimuth='225' elevation='70' />
+          </feSpecularLighting>
+          <feComposite in='S' in2='SourceAlpha' operator='in' result='L' />
+          <feComposite in='SourceGraphic' in2='L' operator='arithmetic' k2='1' k3='1' />
+        </filter>
+        <filter id=in-and-out>
+          <feGaussianBlur stdDeviation='4' in='SourceAlpha' />
+          <feOffset result='fO' dy='5' dx='5' />
+          <feComposite in2='fO' operator='xor' in='SourceGraphic' />
+        </filter>
+      </svg>
+
+      <p data-text='Glass Text'>Glass Text</p>
+
+See similar pens at <a href=https://codepen.io/nokiss/pens/popular target=_blank>Codepen</a>
+<br> More text effects at <a href=http://users.atw.hu/nyejani/gallery/gallery.htm target=_blank>nokiss</a>
+</body>
+</html>

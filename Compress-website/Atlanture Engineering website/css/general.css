@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+/* GENERAL STYLING STARTS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+*::selection{
+    color: var(--background-alt);
+    background-color: var(--primary-color);
+}
+ /* width */
+ ::-webkit-scrollbar {
+    width: 9.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color    );
+    border-radius: 3em;
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    -ms-border-radius: 3em;
+    -o-border-radius: 3em;
+}
+  
+  /* Handle on hover
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  */
+body {
+    color: var(--text-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-color: #CDA367;
+    --text-color: #7a7a7a;
+    --heading-color: #151515;
+    --border-gray: #b9b9b9;
+    --background-alt: #f8f8f8;
+    --primary-alt: rgba(237, 85, 33, 0.5); 
+    --site-max-width: 1300px;
+}

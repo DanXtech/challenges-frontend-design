@@ -1,0 +1,78 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * termina:
+ *   - http://typekit.com/eulas/00000000000000007735b212
+ *   - http://typekit.com/eulas/00000000000000007735b216
+ *   - http://typekit.com/eulas/00000000000000007735b219
+ *   - http://typekit.com/eulas/00000000000000007735b21c
+ *   - http://typekit.com/eulas/00000000000000007735b21e
+ *   - http://typekit.com/eulas/00000000000000007735b220
+ *   - http://typekit.com/eulas/00000000000000007735b222
+ *   - http://typekit.com/eulas/00000000000000007735b224
+ *   - http://typekit.com/eulas/00000000000000007735b226
+ *
+ * © 2009-2024 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2023-01-13 08:10:34 UTC"}*/
+
+@import url("p.css");
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/c7d058/00000000000000007735b212/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/c7d058/00000000000000007735b212/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/c7d058/00000000000000007735b212/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/8fb82c/00000000000000007735b216/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/8fb82c/00000000000000007735b216/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/8fb82c/00000000000000007735b216/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/3a0b27/00000000000000007735b219/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1d76ab/00000000000000007735b21c/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/3e72b6/00000000000000007735b21e/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n5&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/275a7d/00000000000000007735b220/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/574117/00000000000000007735b222/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/574117/00000000000000007735b222/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/574117/00000000000000007735b222/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/3046cd/00000000000000007735b224/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/3046cd/00000000000000007735b224/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/3046cd/00000000000000007735b224/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n8&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:800;font-stretch:normal;
+}
+
+@font-face {
+font-family:"termina";
+src:url("https://use.typekit.net/af/8a0f0c/00000000000000007735b226/30/l?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/8a0f0c/00000000000000007735b226/30/d?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/8a0f0c/00000000000000007735b226/30/a?primer=19e22326407baa22e24dbf97694ecfebb3b5e74ea485d31fd395694769e48f8c&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;font-stretch:normal;
+}
+
+.tk-termina { font-family: "termina",sans-serif; }
